@@ -101,11 +101,10 @@ mern-blog-app/
 │   │   └── App.jsx
 │   └── index.html
 └── README.md
-Screenshots
-[Add your screenshots here]
+
 
 Author
-[Your Name]
+Calvine Dasilver
 
 
 ---
