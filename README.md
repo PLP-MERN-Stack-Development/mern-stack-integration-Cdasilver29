@@ -19,6 +19,28 @@ It’s designed to demonstrate complete MERN integration, clean architecture, an
 
 👉 [View Live Demo](https://your-deployment-link.com) *(replace with your deployed app URL)*
 
+## 📸 Application Screenshots
+
+### Homepage / Posts List
+![Homepage Screenshot](./screenshots/homepage.png)
+*The main blog page showing all posts with search, filtering, and pagination.*
+
+### Single Post View
+![Single Post Screenshot](./screenshots/single-post.png)
+*Detailed view of an individual blog post with comments section.*
+
+### Create/Edit Post Form
+![Create Post Screenshot](./screenshots/create-post-form.png)
+*Form interface for creating new blog posts or editing existing ones.*
+
+### Server Runtime
+![Terminal Screenshot](./screenshots/servers-running.png)
+*Terminal showing both backend (Node.js/Express) and frontend (React/Vite) servers running concurrently.*
+
+### Database Collections
+![MongoDB Screenshot](./screenshots/mongodb-collections.png)
+*MongoDB Compass/Atlas showing the posts and categories collections with sample data.*
+
 ---
 
 ## 🚀 Features
@@ -176,7 +198,7 @@ mern-stack-integration-Cdasilver29/
 │
 └── README.md
 📸 Screenshots
-(Add screenshots of your app’s main pages here — list view, single post view, and create/edit form.)
+
 
 Example:
 https://./screenshots/homepage.png

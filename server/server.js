@@ -14,11 +14,18 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Routes (wrap in try-catch in case files don’t exist yet)
+// CORS — allow requests from your React app
+app.use(
+  cors({
+    origin:  ['http://localhost:3000'], // React dev ports
+    credentials: true,
+  })
+);
+
+// Routes
 try {
   app.use('/api/posts', require('./routes/posts'));
   app.use('/api/categories', require('./routes/categories'));
@@ -34,7 +41,6 @@ app.get('/api/health', (req, res) => {
 // Error handler middleware (must be last)
 app.use(errorHandler);
 
-// Port setup
 const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV || 'development';
 
