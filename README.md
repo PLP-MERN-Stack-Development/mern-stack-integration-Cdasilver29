@@ -17,7 +17,7 @@ It’s designed to demonstrate complete MERN integration, clean architecture, an
 
 ## 🌐 Live Demo
 
-👉 [View Live Demo](https://your-deployment-link.com) *(replace with your deployed app URL)*
+👉 [View Live Demo](https://mern-blog-app-jet-omega.vercel.app/) 
 
 ## 📸 Application Screenshots
 
